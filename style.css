@@ -1,26 +1,36 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    background-color: beige;
-    text-align: center;
+background-color:#FFDB58;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 20;
+}
+
+li{
+    display: inline-block;
+    margin-left:20px;
 }
 
 h1,
 h2 {
-    color: darkred;
+    color: red;
 }
 
 h3, 
 p,
 li {
-    color: green;
+    color: black;
 }
 
 img {
-    width: 100%;
+    width: 50%;
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 main {
@@ -28,7 +38,7 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background-color: red;
     padding: 10px;
 }
 
@@ -44,7 +54,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: whitesmoke;
     margin-right: 25px;
 }
 
@@ -55,18 +65,17 @@ nav a:hover {
 #banner {
     width: 100%;
     height: auto;
-    background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
 .service {
     display: inline-block;
-    background-color: white;
-    border: 5px solid green;
+    background-color:#FFDB58;
+    border: 5px solid red;
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
@@ -75,12 +84,12 @@ nav a:hover {
 }
 
 table {
-    border: 3px solid black;
+    border: 3px solid red;
     width: 100%;
 }
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     padding: 5px;
 }
